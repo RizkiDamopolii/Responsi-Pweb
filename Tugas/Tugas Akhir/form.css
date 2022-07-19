@@ -1,0 +1,64 @@
+body, head{
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(-45deg, #003b46, #07575b, #66a5ad, #c4dfe6);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+form{
+    border: 1px solid #003b46;
+    background: #66a5ad;
+    width: 20%;
+}
+table {
+    background: #66a5ad;
+    width: 15%;
+}
+.card{
+    position:absolute;
+    width: 30%;
+    background-color: #2c7873;
+    text-align: center;
+    padding: 20px;
+    margin-top: 3%;
+    margin-left: 33%;
+}
+a:link, a:visited {
+    background-color: #6fb98f;
+    color: black;
+    border: 2px solid whitesmoke;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #2c7873;
+    color: whitesmoke;
+}
+input[type="text"]{
+    background-color: #c4dfe6;
+    color: #003b46;
+}
+input[type="submit"]{
+    background-color: #003b46;
+    color: #c4dfe6;
+}
+.submit:hover{
+    background-color: #003b46;
+    color: whitesmoke;
+}
+.submit:active{
+    transform: translateY(4px);
+}

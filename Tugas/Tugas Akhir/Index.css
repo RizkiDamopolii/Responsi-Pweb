@@ -1,0 +1,60 @@
+body, head{
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(-45deg, #003b46, #07575b, #66a5ad, #c4dfe6);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+}
+html, body{
+    margin: 0%;
+    height: 100%;
+}
+.container {
+    min-height: 100%;
+    position:relative;
+}
+.footer{
+    width: 99.1%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #003b46;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+h1{
+    text-align: center;
+}
+.card{
+    position: absolute;
+    width: 30%;
+    background-color: #2c7873;
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 33%;
+}
+a:link, a:visited {
+    background-color: #6fb98f;
+    color: black;
+    border: 2px solid whitesmoke;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: #2c7873;
+    color: whitesmoke;
+}
